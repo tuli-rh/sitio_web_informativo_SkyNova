@@ -53,6 +53,22 @@ a:hover {
     margin-bottom: 25px;
 }
 
+section {
+    max-width: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.subsection {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
 h2 {
     color: #a08fff;
     margin-bottom: 10px;
