@@ -4,9 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/static/css/style.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <!-- Estilos CSS local -->
+    <link rel="stylesheet" href="/static/css/style.css">
     <title>SkyNova</title>
 </head>
 
@@ -52,10 +55,45 @@
             </div>
             <img src="/static/images/silent.jpg" alt="víctima silenciada" id="silent">
         </div>
+
+        <div class="d-flex mt-5 justify-content-between">
+            <button onclick="irAcercaDe()" class="btn btn1">Acerca de nosotros</button>
+            <button onclick="irQuienesSomos()" class="btn btn2">¿Quiénes somos?</button>
+            <button onclick="irContacto()" class="btn btn3">Contáctanos</button>
+        </div>
+
+        <div class="d-flex mt-5 justify-content-between">
+            <div class="txt-cont special-cont">
+                <h2>¿Estás en situación de violencia escolar y no te atreves a decir algo?</h2>
+            </div>
+
+            <div class="txt-cont">
+                <p>Tenemos la solución para tí, nuestra plataforma web <strong>Alerta Silenciosa</strong>, aquí podrás
+                    avisar, denunciar y alertar a los docentes de tu establecimiento sin el temor de amenazas,
+                    desconfianza ni la vergüenza de hablar cara a cara.</p>
+            </div>
+        </div>
     </div>
+
+    <div class="d-flex mt-5 justify-content-between align-items-center">
+        <img src="/static/images/alerticon" alt="Logo Alerta Silenciosa">
+        <div class="txt-cont plat-cont">
+            <h3>Alerta Silenciosa</h3>
+            <p>Por una educación pasiva y una convivencia sana</p>
+            <a href="#" target="_blank">Hacer una denuncia ahora</a>
+        </div>
+    </div>
+
+    <footer class="mt-5 bg-secondary">
+        <div class="f-container d-flex justify-content-between">
+            <p class="text-white txt-f">© 2025 SkyNova, todos los derechos reservados</p>
+            <a href="https://volandoenv.cl/donaciones" target="_blank" class="f-links">Hacer donación contra el bullying</a>
+        </div>
+    </footer>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Script JS local -->
     <script src=/static/js/script.js></script>
 </body>
 

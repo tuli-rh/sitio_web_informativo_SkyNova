@@ -29,3 +29,18 @@ silentBullying.addEventListener("mouseout", function() {
     silentBullying.style.transform = "scale(1)";
 });
 
+// Funciones para cambiar la página
+// ir a Acerca De
+function irAcercaDe() {
+    window.location.href = ("/pages/acercade.html");
+}
+
+// Ir a ¿Quiénes Somos?
+function irQuienesSomos() {
+    window.location.href = ("/pages/quienessomos.html");
+}
+
+// Ir a Contacto
+function irContacto() {
+    window.location.href = ("/pages/contacto.html");
+}

@@ -5,8 +5,9 @@
     box-sizing: border-box;
 }
 
+/* !important hace que el valor de la propiedad se ponga por encima de las demás de Bootstrap */
 body {
-      background-image: linear-gradient(#000, #cbcae2) !important;
+    background-image: linear-gradient(#000, #cbcae2) !important;
 }
 
 nav {
@@ -90,4 +91,90 @@ h1 {
     max-width: 300px !important;
     border-radius: 25px;
     transition: transform 0.5s;
+}
+
+.btn {
+    font-size: 30px !important;
+    font-weight: bold !important;
+    max-width: 205px;
+
+}
+
+.btn1 {
+    background-color: #d4cf84 !important;
+    border: 2px solid #8b8857 !important;
+    transition: background-color 0.2s;
+    transition: border 0.2s;
+}
+
+.btn2 {
+    background-color: #84d4cd !important;
+    border: 2px solid #4b7773 !important;
+    transition: background-color 0.2s;
+    transition: border 0.2s;
+}
+
+.btn3 {
+    background-color: #d4ab84 !important;
+    border: 2px solid #685340 !important;
+    transition: background-color 0.2s;
+    transition: border 0.2s;
+}
+
+.btn1:hover {
+    background-color: #8bd484 !important;
+    border: 2px solid #5d8b57 !important;
+    transition: background-color 0.2s !important;
+    transition: border 0.2s;
+}
+
+.btn2:hover {
+    background-color: #848cd4 !important;
+    border: 2px solid #4b4c77 !important;
+    transition: background-color 0.2s !important;
+    transition: border 0.2s;
+}
+
+.btn3:hover {
+    background-color: #d48484 !important;
+    border: 2px solid #684040 !important;
+    transition: background-color 0.2s !important;
+    transition: border 0.2s;
+}
+
+.special-cont {
+    max-width: 360px;
+    margin: auto 0;
+}
+
+.txt-f {
+    margin: 0 !important;
+}
+
+footer {
+    border-top: 2px solid #000;
+}
+
+.f-container {
+    max-width: 800px;
+    padding: 5px;
+}
+
+.f-links {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s !important;
+}
+
+.f-links:hover {
+    color: #00ffff;
+    transition: color 0.2s;
+}
+
+.plat-cont {
+    padding-bottom: 30px !important;
+}
+
+.plat-cont a {
+    text-decoration: none;
 }
