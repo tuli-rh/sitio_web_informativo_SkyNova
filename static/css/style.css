@@ -28,11 +28,11 @@ h1 {
 .nav-right {
     margin: 0 !important;
     gap: 12px;
+    display: flex;
 }
 
-.nav-right {
-    display: flex;
-    justify-content: flex-end !important;
+.container {
+    margin: 10px auto !important;
 }
 
 .nav-right a {
@@ -53,6 +53,7 @@ h1 {
 .h2-cont {
     text-align: center;
     max-width: 300px;
+    margin: 0 auto;
     background-color: #fcdede;
     padding: 5px;
     border: 2px solid #000;
@@ -66,6 +67,7 @@ h1 {
 #bullying1 {
     max-width: 200px !important;
     height: 100% !important;
+    margin: 0 auto !important;
     border-radius: 25px;
     transition: transform 0.5s;
 }
@@ -73,6 +75,7 @@ h1 {
 #bullying2 {
     max-width: 333px !important;
     height: 100% !important;
+    margin: 0 auto !important;
     border-radius: 25px;
     transition: transform 0.5s;
 }
@@ -93,20 +96,23 @@ h1 {
 }
 
 .d-flex {
+    flex-wrap: wrap;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0 auto !important;
 }
 
 #silent {
     max-width: 300px !important;
     border-radius: 25px;
     transition: transform 0.5s;
+    margin: 0 auto !important;
 }
 
 .btn {
     font-size: 30px !important;
     font-weight: bold !important;
     max-width: 205px;
+    margin: 0 auto !important;
 
 }
 
@@ -206,4 +212,71 @@ footer {
     color: #0f0092;
     font-weight: bold;
     font-size: 20px !important;
+}
+
+.row-fst {
+    margin-top: 15px !important;
+}
+
+.row-snd {
+    margin-top: 15px !important;
+}
+
+.row-trd {
+    margin-top: 15px !important;
+}
+
+.row-frd {
+    margin-top: 15px !important;
+}
+
+.row-fth {
+    margin-top: 15px !important;
+}
+
+.logoimg {
+    margin: 0 auto !important;
+}
+
+@media (max-width: 500px) {
+
+    .nav-right,
+    .nav-left {
+        margin: 0 auto !important;
+    }
+
+    a {
+        font-size: 8px;
+        padding: 0 4px !important;
+    }
+
+    .txt-cont {
+        margin-bottom: 8px;
+    }
+
+    #bullying1 {
+        margin-bottom: 8px !important;
+    }
+
+    #bullying2,
+    #silent {
+        max-width: 215px !important;
+        margin-bottom: 8px !important;
+    }
+
+    .btn2 {
+        margin: 8px auto !important;
+    }
+
+    .btn3 {
+        margin-bottom: 8px !important;
+    }
+
+    .f-links {
+        font-size: 0;
+    }
+
+    .logoimg {
+        margin-bottom: 8px !important;
+    }
 }
