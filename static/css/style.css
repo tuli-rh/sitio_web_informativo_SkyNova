@@ -1,11 +1,9 @@
-/* Resetear estilos */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/* !important hace que el valor de la propiedad se ponga por encima de las demás de Bootstrap */
 body {
     text-align: center;
     background-image: linear-gradient(#f3c5ff, #d595ff, #8e6eff) !important;
