@@ -204,3 +204,8 @@ footer {
     font-weight: bold;
     font-size: 20px !important;
 }
+
+.h-img {
+    max-width: 60px;
+    height: 100%;
+}
