@@ -7,6 +7,7 @@
 
 /* !important hace que el valor de la propiedad se ponga por encima de las demás de Bootstrap */
 body {
+    text-align: center;
     background-image: linear-gradient(#f3c5ff, #d595ff, #8e6eff) !important;
 }
 
@@ -25,6 +26,7 @@ h1 {
 }
 
 .nav-right {
+    margin: 0 !important;
     gap: 12px;
 }
 
@@ -63,13 +65,14 @@ h1 {
 
 #bullying1 {
     max-width: 200px !important;
+    height: 100% !important;
     border-radius: 25px;
     transition: transform 0.5s;
 }
 
 #bullying2 {
     max-width: 333px !important;
-    max-height: 190px !important;
+    height: 100% !important;
     border-radius: 25px;
     transition: transform 0.5s;
 }
