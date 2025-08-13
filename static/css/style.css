@@ -29,10 +29,6 @@ h1 {
     display: flex;
 }
 
-.container {
-    margin: 10px auto !important;
-}
-
 .nav-right a {
     text-decoration: none;
     color: #000;
@@ -46,6 +42,10 @@ h1 {
 .nav-right a:hover {
     background-color: #d68a8a;
     transition: background-color 0.2s;
+}
+
+.container {
+    margin: 10px auto !important;
 }
 
 .h2-cont {
@@ -182,6 +182,15 @@ footer {
 
 .plat-cont a {
     text-decoration: none;
+    color: #009220;
+    font-weight: bold;
+    font-size: 20px !important;
+}
+
+.plat-cont a:hover {
+    color: #0f0092;
+    font-weight: bold;
+    font-size: 20px !important;
 }
 
 .txt-1 {
@@ -200,34 +209,10 @@ footer {
     max-width: 220px !important;
 }
 
-.plat-cont a {
-    color: #009220;
-    font-weight: bold;
-    font-size: 20px !important;
-}
-
-.plat-cont a:hover {
-    color: #0f0092;
-    font-weight: bold;
-    font-size: 20px !important;
-}
-
-.row-fst {
-    margin-top: 15px !important;
-}
-
-.row-snd {
-    margin-top: 15px !important;
-}
-
-.row-trd {
-    margin-top: 15px !important;
-}
-
-.row-frd {
-    margin-top: 15px !important;
-}
-
+.row-fst,
+.row-snd,
+.row-trd,
+.row-frd,
 .row-fth {
     margin-top: 15px !important;
 }
@@ -248,11 +233,9 @@ footer {
         padding: 0 4px !important;
     }
 
-    .txt-cont {
-        margin-bottom: 8px;
-    }
-
-    #bullying1 {
+    .txt-cont,
+    #bullying1,
+    .logoimg {
         margin-bottom: 8px !important;
     }
 
@@ -272,9 +255,5 @@ footer {
 
     .f-links {
         font-size: 0;
-    }
-
-    .logoimg {
-        margin-bottom: 8px !important;
     }
 }
