@@ -68,7 +68,7 @@ function irConsejos() {
   window.location.href = ("https://kidshealth.org/es/teens/bullies.html");
 }
 
-// Ir a Contacto
+// Ir a ley del bullying
 function irLeyBullying() {
   window.location.href = ("https://www.bcn.cl/leychile/navegar?idNorma=1030087");
 }
