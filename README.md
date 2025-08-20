@@ -14,7 +14,7 @@
 - Alexander Pino
 
 ## Descripción
-Aquí se dará la información respecto a nuestro proyecto de la feria TP, su problemática, su relación con algún ODS, la tecnología involucrada, ETC.
+Aquí se dará la información respecto a la problemática que escogimos, se darán opciones para investigar más y otra para ir a hacer una denuncia.
 
 ## Importante
 Si deseas contactarnos a continuación están nuestros correos electrónicos.
