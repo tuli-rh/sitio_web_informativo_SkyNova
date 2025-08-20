@@ -178,7 +178,6 @@ footer {
 .plat-cont {
     padding-bottom: 30px !important;
     background-image: linear-gradient(#fcdef8, #ffc9ff, #fac1ff, #ca7fba) !important;
-    justify-self: center !important;
 }
 
 .plat-cont a {
@@ -220,6 +219,10 @@ footer {
 
 .logoimg {
     margin: 0 auto !important;
+}
+
+.last-box {
+    justify-content: center !important;
 }
 
 @media (max-width: 500px) {
