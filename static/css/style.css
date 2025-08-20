@@ -178,6 +178,7 @@ footer {
 .plat-cont {
     padding-bottom: 30px !important;
     background-image: linear-gradient(#fcdef8, #ffc9ff, #fac1ff, #ca7fba) !important;
+    justify-self: center !important;
 }
 
 .plat-cont a {
