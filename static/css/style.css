@@ -6,12 +6,11 @@
 
 body {
     text-align: center;
-    background-image: linear-gradient(#f3c5ff, #d595ff, #8e6eff) !important;
+    background-image: linear-gradient(#e2f4fc, #c3daeb) !important;
 }
 
 nav {
-    background-image: linear-gradient(#2a9fff, #4aaeff, #008cff, #003b6b) !important;
-    border-bottom: 2px solid #000;
+    background-image: linear-gradient(#90c0e7, #5e99c9) !important;
 }
 
 h1 {
@@ -32,15 +31,14 @@ h1 {
 .nav-right a {
     text-decoration: none;
     color: #000;
-    background-color: #d6d68a;
-    border: 2px solid #4b4b4b;
+    background-color: #b7e8ff;
     border-radius: 20px;
     padding: 2px 8px;
     transition: background-color 0.2s;
 }
 
 .nav-right a:hover {
-    background-color: #d68a8a;
+    background-color: #cdeeff;
     transition: background-color 0.2s;
 }
 
@@ -52,9 +50,8 @@ h1 {
     text-align: center;
     max-width: 300px;
     margin: 0 auto;
-    background-color: #fcdede;
+    background-color: #f2f7fa;
     padding: 5px;
-    border: 2px solid #000;
     border-radius: 20px;
 }
 
@@ -81,9 +78,8 @@ h1 {
 .txt-cont {
     text-align: center;
     max-width: 350px;
-    background-image: linear-gradient(#fcdede, #ffc9c9, #ffc1c1, #ca7f7f) !important;
+    background-image: linear-gradient(#aac3df, #95c3e2) !important;
     padding: 0 7px;
-    border: 2px solid #000;
     border-radius: 20px;
     box-shadow: 5px 5px 5px #0000007c !important;
 }
@@ -107,7 +103,7 @@ h1 {
 }
 
 .btn {
-    font-size: 30px !important;
+    font-size: 26px !important;
     font-weight: bold !important;
     max-width: 205px;
     margin: 0 auto !important;
@@ -115,20 +111,17 @@ h1 {
 }
 
 .btn1 {
-    background-image: linear-gradient(#d9e631, #e4e000, #ceca00, #a09d00) !important;
-    border: 2px solid #8b8857 !important;
+    background-image: linear-gradient(#95b5da, #7999c4) !important;
     transition: transform 0.5s;
 }
 
 .btn2 {
-    background-image: linear-gradient(#31e63a, #26e400, #07ce00, #05a000) !important;
-    border: 2px solid #4b774d !important;
+    background-image: linear-gradient(#8cb1db, #678bb9) !important;
     transition: transform 0.5s;
 }
 
 .btn3 {
-    background-image: linear-gradient(#e69831, #e49400, #ce7c00, #a06d00) !important;
-    border: 2px solid #685340 !important;
+    background-image: linear-gradient(#829ebe, #607797) !important;
     transition: transform 0.5s;
 }
 
@@ -145,7 +138,7 @@ h1 {
 }
 
 .special-cont {
-    background-image: linear-gradient(#defafc, #c9ffff, #c1fffa, #7fcac4) !important;
+    background-image: linear-gradient(#aac3df, #cfcfbd) !important;
     max-width: 360px;
     margin: auto 0;
 }
@@ -177,32 +170,32 @@ footer {
 
 .plat-cont {
     padding-bottom: 30px !important;
-    background-image: linear-gradient(#fcdef8, #ffc9ff, #fac1ff, #ca7fba) !important;
+    background-image: linear-gradient(#aac3df, #dbb3b3) !important;
 }
 
 .plat-cont a {
     text-decoration: none;
-    color: #009220;
+    color: #fd5c5c;
     font-weight: bold;
     font-size: 20px !important;
 }
 
 .plat-cont a:hover {
-    color: #0f0092;
+    color: #ca1b1b;
     font-weight: bold;
     font-size: 20px !important;
 }
 
 .txt-1 {
-    background-image: linear-gradient(#fcfade, #fffbc9, #fff6c1, #cac57f) !important;
+    background-image: linear-gradient(#aac3df, #9dc5c5) !important;
 }
 
 .txt-2 {
-    background-image: linear-gradient(#defce3, #c9ffcc, #c8ffc1, #7fca7f) !important;
+    background-image: linear-gradient(#aac3df, #bbacc9) !important;
 }
 
 .txt-3 {
-    background-image: linear-gradient(#dedefc, #cdc9ff, #c1c5ff, #7f84ca) !important;
+    background-image: linear-gradient(#aac3df, #95a7e2) !important;
 }
 
 .logoimg {
